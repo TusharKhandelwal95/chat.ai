@@ -1,0 +1,79 @@
+/* App.css */
+body {
+    background-color: #1e1e2f;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #61dafb;
+}
+
+textarea {
+    background-color: #2c2c3e;
+    color: #f5f5f5;
+}
+
+textarea::placeholder {
+    color: #a9a9b8;
+}
+
+button {
+    background-color: #3a3a4d;
+}
+
+button:hover {
+    background-color: #50506a;
+}
+
+.bg-dark {
+    background-color: #2a2a40;
+}
+
+.text-gray {
+    color: #a9a9b8;
+}
+
+.text-white {
+    color: #f5f5f5;
+}
+
+.shadow-xl {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+}
+
+.rounded-lg {
+    border-radius: 8px;
+}
+
+.rounded-md {
+    border-radius: 6px;
+}
+
+.hover\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
+
+.focus\:border-blue-400:focus {
+    border-color: #61dafb;
+}
+
+.focus\:shadow-lg:focus {
+    box-shadow: 0 0 10px #61dafb;
+}
+
+.bg-gradient-to-r {
+    background-image: linear-gradient(to right, #1e1e2f, #2a2a40);
+}
